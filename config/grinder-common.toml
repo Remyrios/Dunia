@@ -1,0 +1,177 @@
+
+[grindstone_types]
+
+	[grindstone_types.mercury]
+		#Range: 0.0 ~ 10.0
+		mercury_result_modifier = 1.3
+		#Range: 0.0 ~ 10.0
+		mercury_speed_modifier = 0.3
+
+	[grindstone_types.cobalt]
+		#Range: 0.0 ~ 10.0
+		cobalt_result_modifier = 2.75
+		#Range: 0.0 ~ 10.0
+		cobalt_speed_modifier = 0.4
+
+	[grindstone_types.aluminum]
+		#Range: 0.0 ~ 10.0
+		aluminum_speed_modifier = 0.9
+		#Range: 0.0 ~ 10.0
+		aluminum_result_modifier = 1.6
+
+	[grindstone_types.starmetal]
+		#Range: 0.0 ~ 10.0
+		starmetal_result_modifier = 2.75
+		#Range: 0.0 ~ 10.0
+		starmetal_speed_modifier = 2.75
+
+	[grindstone_types.gold]
+		#Range: 0.0 ~ 10.0
+		gold_result_modifier = 1.4
+		#Range: 0.0 ~ 10.0
+		gold_speed_modifier = 0.5
+
+	[grindstone_types.platinum]
+		#Range: 0.0 ~ 10.0
+		platinum_speed_modifier = 0.7
+		#Range: 0.0 ~ 10.0
+		platinum_result_modifier = 2.2
+
+	[grindstone_types.tungsten]
+		#Range: 0.0 ~ 10.0
+		tungsten_result_modifier = 1.9
+		#Range: 0.0 ~ 10.0
+		tungsten_speed_modifier = 1.9
+
+	[grindstone_types.tin]
+		#Range: 0.0 ~ 10.0
+		tin_result_modifier = 1.3
+		#Range: 0.0 ~ 10.0
+		tin_speed_modifier = 0.75
+
+	[grindstone_types.copper]
+		#Range: 0.0 ~ 10.0
+		copper_result_modifier = 1.4
+		#Range: 0.0 ~ 10.0
+		copper_speed_modifier = 0.6
+
+	[grindstone_types.andesite]
+		#Range: 0.0 ~ 10.0
+		andesite_result_modifier = 1.1
+		#Range: 0.0 ~ 10.0
+		andesite_speed_modifier = 1.3
+
+	[grindstone_types.ardite]
+		#Range: 0.0 ~ 10.0
+		ardite_speed_modifier = 1.2
+		#Range: 0.0 ~ 10.0
+		ardite_result_modifier = 3.2
+
+	[grindstone_types.zinc]
+		#Range: 0.0 ~ 10.0
+		zinc_result_modifier = 1.45
+		#Range: 0.0 ~ 10.0
+		zinc_speed_modifier = 0.8
+
+	[grindstone_types.diorite]
+		#Range: 0.0 ~ 10.0
+		diorite_result_modifier = 1.1
+		#Range: 0.0 ~ 10.0
+		diorite_speed_modifier = 1.3
+
+	[grindstone_types.nickel]
+		#Range: 0.0 ~ 10.0
+		nickel_result_modifier = 1.6
+		#Range: 0.0 ~ 10.0
+		nickel_speed_modifier = 0.95
+
+	[grindstone_types.obsidian]
+		#Range: 0.0 ~ 10.0
+		obsidian_result_modifier = 2.5
+		#Range: 0.0 ~ 10.0
+		obsidian_speed_modifier = 1.1
+
+	[grindstone_types.neptunium]
+		#Range: 0.0 ~ 10.0
+		neptunium_speed_modifier = 0.8
+		#Range: 0.0 ~ 10.0
+		neptunium_result_modifier = 2.0
+
+	[grindstone_types.iesnium]
+		#Range: 0.0 ~ 10.0
+		rainbow_result_modifier = 1.4
+		#Range: 0.0 ~ 10.0
+		rainbow_speed_modifier = 1.4
+
+	[grindstone_types.osmium]
+		#Range: 0.0 ~ 10.0
+		osmium_result_modifier = 1.85
+		#Range: 0.0 ~ 10.0
+		osmium_speed_modifier = 0.95
+
+	[grindstone_types.lead]
+		#Range: 0.0 ~ 10.0
+		lead_speed_modifier = 1.6
+		#Range: 0.0 ~ 10.0
+		lead_result_modifier = 2.0
+
+	[grindstone_types.stone]
+		#Range: 0.0 ~ 10.0
+		stone_speed_modifier = 1.3
+		#Range: 0.0 ~ 10.0
+		stone_result_modifier = 1.1
+
+	[grindstone_types.zitrite]
+		#Range: 0.0 ~ 10.0
+		zitrite_result_modifier = 1.5
+		#Range: 0.0 ~ 10.0
+		zitrite_speed_modifier = 1.5
+
+	[grindstone_types.rainbow]
+		#Range: 0.0 ~ 10.0
+		rainbow_result_modifier = 1.5
+		#Range: 0.0 ~ 10.0
+		rainbow_speed_modifier = 1.5
+
+	[grindstone_types.diamond]
+		#Range: 0.0 ~ 10.0
+		diamond_result_modifier = 2.0
+		#Range: 0.0 ~ 10.0
+		diamond_speed_modifier = 0.7
+
+	[grindstone_types.granite]
+		#Range: 0.0 ~ 10.0
+		granite_result_modifier = 1.1
+		#Range: 0.0 ~ 10.0
+		granite_speed_modifier = 1.3
+
+	[grindstone_types.iron]
+		#Range: 0.0 ~ 10.0
+		iron_speed_modifier = 1.0
+		#Range: 0.0 ~ 10.0
+		iron_result_modifier = 1.7
+
+	[grindstone_types.silver]
+		#Range: 0.0 ~ 10.0
+		silver_speed_modifier = 0.75
+		#Range: 0.0 ~ 10.0
+		silver_result_modifier = 1.5
+
+	[grindstone_types.uranium]
+		#Range: 0.0 ~ 10.0
+		uranium_result_modifier = 1.75
+		#Range: 0.0 ~ 10.0
+		uranium_speed_modifier = 0.2
+
+	[grindstone_types.emerald]
+		#Range: 0.0 ~ 10.0
+		emerald_result_modifier = 2.5
+		#Range: 0.0 ~ 10.0
+		emerald_speed_modifier = 1.0
+
+	[grindstone_types.bismuth]
+		#Range: 0.0 ~ 10.0
+		bismuth_result_modifier = 3.2
+		#Range: 0.0 ~ 10.0
+		bismuth_speed_modifier = 3.5
+

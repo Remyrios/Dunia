@@ -1,0 +1,57 @@
+
+#all these don't actually disable blocks anymore, they just remove their recipe and remove them from the creative tabs(like all other mods do)
+#to access server configuration go into /saves/serverconfigs
+[general]
+	#enable creative tab
+	creative_tab = false
+	#set to false to disable custom dispenser behaviors (filling jars) if for some reason they are causing trouble
+	dispensers = true
+
+#Enable and disable blocks / entities
+[registration]
+
+	[registration.entities]
+		firefly = true
+
+	[registration.blocks]
+		clock_block = true
+		pedestal = true
+		blackboard = true
+		sconce_soul = true
+		candle_holder = true
+		speaker_block = true
+		sack = true
+		#WIP
+		flag = false
+		#WIP
+		laser_block = false
+		bellows = true
+		notice_board = true
+		hanging_sign = true
+		redstone_illuminator = true
+		cage = true
+		bamboo_spikes = true
+		planter = true
+		wind_vane = true
+		hourglass = true
+		jar = true
+		sconce_ender = true
+		item_shelf = true
+		turn_table = true
+		faucet = true
+		stone_lamp = true
+		cog_block = true
+		crank = true
+		gold_trapdoor = true
+		copper_lantern = true
+		piston_launcher = true
+		sconce_green = false
+		flute = true
+		globe = true
+		sconce = true
+		candelabra = true
+		gold_door = true
+		safe = true
+		sconce_lever = true
+		sign_post = true
+

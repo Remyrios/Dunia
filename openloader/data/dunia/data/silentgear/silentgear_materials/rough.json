@@ -1,0 +1,61 @@
+{
+  "availability": {
+    "tier": 0,
+    "categories": [
+      "rock"
+    ],
+    "visible": true,
+    "gear_blacklist": [
+      "helmet",
+      "chestplate",
+      "leggings",
+      "boots"
+    ],
+    "can_salvage": false
+  },
+  "crafting_items": {
+    "main": {
+      "item": "botania:pebble"
+    }
+  },
+  "name": {
+    "translate": "material.silentgear.rough"
+  },
+  "stats": {
+    "main": {
+      "durability": 61.0,
+      "armor_durability": 3.0,
+      "enchantability": 1.0,
+      "harvest_level": 0.0,
+      "harvest_speed": 2.5,
+      "melee_damage": 0.5,
+      "magic_damage": 0.0,
+      "attack_speed": 0.0,
+      "armor": 3.0,
+      "armor/helmet": 0.5,
+      "armor/chestplate": 1.0,
+      "armor/leggings": 1.0,
+      "armor/boots": 0.5,
+      "ranged_damage": 0.0,
+      "ranged_speed": -0.2,
+      "projectile_speed": 1.0,
+      "projectile_accuracy": 0.8,
+      "rarity": 1.0,
+      "silentgems:chargeability": 0.5
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:ancient",
+        "level": 1
+      }
+    ],
+    "rod": [
+      {
+        "name": "silentgear:brittle",
+        "level": 1
+      }
+    ]
+  }
+}

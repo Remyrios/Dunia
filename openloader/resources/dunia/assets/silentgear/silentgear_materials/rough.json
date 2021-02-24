@@ -1,0 +1,14 @@
+{
+    "main/all": [
+      {
+        "texture": "silentgear:main_generic_lc",
+        "color": "#858585"
+      }
+    ],
+    "main/fragment": [
+      {
+        "texture": "silentgear:metal",
+        "color": "#858585"
+      }
+    ]
+  }
