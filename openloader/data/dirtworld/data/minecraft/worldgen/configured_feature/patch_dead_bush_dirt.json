@@ -10,7 +10,7 @@
         "zspread": 7,
         "whitelist": [],
         "blacklist": [],
-        "tries": 2,
+        "tries": 8,
         "state_provider": {
           "state": {
             "Name": "minecraft:dead_bush"
