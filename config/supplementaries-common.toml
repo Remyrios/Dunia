@@ -40,10 +40,8 @@
 		#additional sack slots divided by 2. Number of slots will be 5 + additional_slots*2
 		#Range: 0 ~ 2
 		additional_slots = 0
-		#penalize the player with slowness effecn when carring too many sacks
+		#penalize the player with slowness effect when carrying too many sacks
 		sack_penality = true
-		#additional blocks that can support a sack
-		whitelist = ["farmersdelight:rope"]
 		#maximum number of sacks after which the slowness effect will be applied. each multiple of this number will further slow the player down
 		#Range: 0 ~ 50
 		sack_increment = 2

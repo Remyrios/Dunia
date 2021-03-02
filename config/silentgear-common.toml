@@ -167,12 +167,6 @@
 		#Range: 0 ~ 100
 		patchCount = 1
 
-[compat]
-
-	[compat.mineAndSlash]
-		#Enable compatibility with the Mine and Slash mod, if installed
-		enabled = true
-
 [debug]
 
 	[debug.logging]

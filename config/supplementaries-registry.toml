@@ -6,6 +6,8 @@
 	creative_tab = false
 	#set to false to disable custom dispenser behaviors (filling jars) if for some reason they are causing trouble
 	dispensers = true
+	#creates a creative tab full of filled jars
+	jar_tab = false
 
 #Enable and disable blocks / entities
 [registration]
@@ -17,6 +19,7 @@
 		clock_block = true
 		pedestal = true
 		blackboard = true
+		netherite_door = true
 		sconce_soul = true
 		candle_holder = true
 		speaker_block = true
@@ -30,6 +33,7 @@
 		hanging_sign = true
 		redstone_illuminator = true
 		cage = true
+		lock_block = true
 		bamboo_spikes = true
 		planter = true
 		wind_vane = true
@@ -37,6 +41,7 @@
 		jar = true
 		sconce_ender = true
 		item_shelf = true
+		checker_block = true
 		turn_table = true
 		faucet = true
 		stone_lamp = true
@@ -44,7 +49,9 @@
 		crank = true
 		gold_trapdoor = true
 		copper_lantern = true
+		pancake = true
 		piston_launcher = true
+		netherite_trapdoor = true
 		sconce_green = false
 		flute = true
 		globe = true
