@@ -335,7 +335,7 @@
 	"Skull Pikes" = true
 	"Note Block Mob Sounds" = true
 	"Double Door Opening" = true
-	"Automatic Recipe Unlock" = true
+	"Automatic Recipe Unlock" = false
 	"Poison Potato Usage" = true
 	"Lava Bucket As Trash" = true
 	"Improved Sleeping" = true
