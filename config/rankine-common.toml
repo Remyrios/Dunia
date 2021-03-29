@@ -12,7 +12,7 @@
 		#Number of blocks away that the Ore Detector can detect ore.
 		#Range: 0 ~ 64
 		oreDetectorRange = 32
-		#
+		#No comment
 		#Range: 1 ~ 64
 		nuggetRange = 7
 		#Chance for a block in #rankine:nugget_stones to drop a nugget of a nearby ore.
@@ -154,6 +154,8 @@
 		foragingChance = 0.15
 		#Change the fuel values of items for realism.
 		fuelValuesChange = true
+		#Enable the lighting of fires and certain machines using two flint.
+		flintFire = true
 		#Change the output of a stone generator from stone to metamorphic rocks.
 		igneousGen = true
 		#A multiplier to determine how much higher the bricks variant resistance is than the stone.
@@ -168,14 +170,17 @@
 		startingBook = true
 		#Adds trades for Project Rankine to Villagers and the Wandering Trader.
 		villageTrades = true
-		#Amount of additional exhaustion when breaking a block
+		#Chance for flint to be consumed when lighting a fire.
+		#Range: 0.0 ~ 1.0
+		flintFireChance = 0.3
+		#Amount of additional exhaustion when breaking a block.
 		#Range: 0.0 ~ 1.0
 		breakExhaustion = 0.0
 
 #Settings for machines
 [machines]
-	#Speed (in ticks) at which the evaporation tower generates resources.
-	#Range: 20 ~ 12000
+	#Base speed (in ticks) at which the evaporation tower generates resources.
+	#Range: 40 ~ 120000
 	evaporationTowerSpeed = 800
 	#Max speed of the laser quarry in ticks.
 	#Range: 1 ~ 300
@@ -208,9 +213,12 @@
 	#Range for the Alnico Magnet's pickup radius and the Alnico Electromagnet range.
 	#Range: 1 ~ 10
 	alnicoMagnetRange = 5
-	#Max range of the laser quarry. Larger numbers may cause lag.
+	#Max range of the laser quarry. Larger numbers may cause lag. Set to 0 to disable functionality.
 	#Range: 0 ~ 63
 	laserQuarryRange = 31
+	#Maximum height of the evaporation tower. Height affects yields. Set to 0 to disable functionality.
+	#Range: 0 ~ 40
+	evaporationTowerHeight = 40
 
 #Settings for alloys and alloy tools
 [alloys]
@@ -739,4 +747,11 @@
 		#Harvest Level of Pegmatite.
 		#Range: 0 ~ 10
 		pegmatiteHL = 0
+
+#Settings for Hard Mode mechanics (HIGHLY EXPERIMENTAL).
+[hardMode]
+	#If enabled, certain elements will react with water. Generally creates an explosion.
+	elementWaterReactive = false
+	#If enabled, certain elements will be radioactive which applies a radiation potion effect that causes damage over time.
+	elementRadioactive = false
 

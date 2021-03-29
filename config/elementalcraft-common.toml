@@ -57,6 +57,17 @@
 				#Range: 0 ~ 10
 				fireBlastFurnaceMaxRunes = 2
 
+		[elementalcraft.instruments.airMill]
+			#The max amount of element consumed by the Air Mill Grindstone per tick.
+			#Range: 0 ~ 1000
+			airMillTransferSpeed = 10
+			#The max amount of on an Air Mill Grindstone.
+			#Range: 0 ~ 10
+			airMillMaxRunes = 3
+			#The ratio of each luck rune on a Air Mill Grindstone.
+			#Range: 0.0 ~ 10.0
+			airMillLuckRatio = 2.0
+
 		[elementalcraft.instruments.elementPipe]
 			#The amount of element transferred by pipes.
 			#Range: 0 ~ 10000
@@ -240,14 +251,11 @@
 		#The maximum element capacity of a source.
 		#Range: 0 ~ 10000000
 		sourceCapacityMax = 1000000
-		#The minimum element a source can generate per tick.
-		#Range: 0 ~ 100
-		sourceRecoverRateMin = 5
 		#set to true to make sources infinite.
 		disableSourceExhaustion = false
-		#The maximum element a source can generate per tick.
+		#The element a source can generate per tick.
 		#Range: 0 ~ 100
-		sourceRecoverRateMax = 15
+		sourceRecoverRate = 5
 
 	#Shrines config
 	[elementalcraft.shrines]
@@ -406,4 +414,7 @@
 		#The element capacity of an element holder.
 		#Range: 0 ~ 100000000
 		elementHolderCapacity = 10000
+		#the multiplier of lense (based on 1000)
+		#Range: 0 ~ 100
+		lenseElementMultiplier = 100
 

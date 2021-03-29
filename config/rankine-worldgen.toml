@@ -38,8 +38,6 @@
 
 #Settings for stone layering
 [layers]
-	#Blocks to generate in Desert Biomes. Layers generate from bottom to top. Leave empty to leave it as vanilla stone.
-	desertBlockList = ["rankine:troctolite", "rankine:rhyolite", "rankine:gneiss", "rankine:red_dacite", "rankine:phyllite", "rankine:quartzite", "rankine:tufa_limestone", "rankine:quartz_sandstone"]
 	#Sets the average height of a biome type. The thickness of a layer is biome height / number of layers. Anything above this height will generally generate as the last layer.
 	#Range: 0 ~ 256
 	netherHeight = 65
@@ -53,6 +51,8 @@
 	#Determines the vertical spread of stone layers. 1.0 is flat, closer to 0.0 is more extreme, 0.0 will crash.
 	#Range: 0.0 ~ 1.0
 	layerWidth = 0.2
+	#Blocks to generate in Desert Biomes. Layers generate from bottom to top. Leave empty to leave it as vanilla stone.
+	desertBlockLiisst = ["rankine:troctolite", "rankine:rhyolite", "rankine:gneiss", "rankine:red_dacite", "rankine:phyllite", "rankine:quartzite", "rankine:tufa_limestone", "rankine:quartz_sandstone"]
 	#This determines how close the overlap of noise layers is. A value of 0 means all layers are shaped identically.
 	#Range: 0 ~ 1024
 	noiseOffset = 256

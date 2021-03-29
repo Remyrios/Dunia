@@ -12,6 +12,8 @@
 	additionalOres = []
 	#Additional dimensions that map to Aura types that should be present in them. This is useful if you have a modpack with custom dimensions that should have Aura act similarly to an existing dimension in them. Each entry needs to be formatted as dimension_name->aura_type, where aura_type can be any of naturesaura:overworld, naturesaura:nether and naturesaura:end.
 	auraTypeOverrides = []
+	#The maximum amount of animals that can be around the powder of fertility before it stops working
+	maxAnimalsAroundPowder = 200
 	#The amount of blocks that can be between two Aura Field Creators for them to be connectable and work together
 	fieldCreatorRange = 24
 

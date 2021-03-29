@@ -78,6 +78,10 @@
 [gear]
 	#If true, gear breaks permanently, like vanilla tools and armor
 	breaksPermanently = false
+	#If set to false all conversion recipes (type 'silentgear:conversion') will be disabled
+	#An example of a conversion recipe is placing a vanilla stone pickaxe into a crafting grid to make a Silent Gear stone pickaxe
+	#Note: This also affects conversion recipes added by data packs and other mods
+	allowConversionRecipes = true
 	#Displays a message in chat, notifying the player that an item broke and hinting that it can be repaired
 	sendBrokenMessage = true
 	#How frequently gear will recalcute stats as damaged
@@ -172,6 +176,8 @@
 	[debug.logging]
 		#Log stat calculations in the debug.log every time gear stats are recalculated
 		stats = true
+		#Log details about certain features being adding to biomes and other world generator details
+		worldGen = true
 		#Log additional information related to loading and synchronizing gear parts and traits.
 		#This might help track down more obscure issues.
 		extraPartAndTraitInfo = false
